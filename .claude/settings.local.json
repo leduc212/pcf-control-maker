@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(npm run build:electron:*)",
+      "Bash(npm run build:preload:*)",
+      "Bash(npm run build:vite:*)",
+      "Bash(timeout 15 npm run dev:*)",
+      "Bash(npm run package:win:*)",
+      "Bash(npm run build:*)",
+      "Bash(taskkill:*)",
+      "Bash(npx electron-builder:*)",
+      "Bash(powershell -Command \"Get-Process | Where-Object {$_Path -like ''*pcf-maker*'' -or $_Name -like ''*PCF*'' -or $_Name -like ''*electron*''} | Select-Object Id, ProcessName, Path\")",
+      "Bash(powershell -Command:*)",
+      "Bash(tasklist:*)",
+      "Bash(dir:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vite:*)",
+      "Bash(DEBUG=electron-builder npx electron-builder:*)",
+      "Bash(timeout 10 npm run dev:*)",
+      "Bash(npx asar:*)",
+      "Bash(cmd /c \"dir /b C:\\\\Workspace\\\\pcf-maker\\\\release\\\\win-unpacked\")",
+      "Bash(if exist \"C:\\\\Workspace\\\\pcf-maker\\\\nul\" del \"C:\\\\Workspace\\\\pcf-maker\\\\nul\")",
+      "Bash(cmd /c \"if exist C:\\\\Workspace\\\\pcf-maker\\\\nul del C:\\\\Workspace\\\\pcf-maker\\\\nul\")",
+      "Bash(cmd /c \"rmdir /s /q release 2>nul & npm run build\")",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(node -e:*)",
+      "Bash(npm run lint:*)",
+      "Bash(npm run typecheck:*)",
+      "Bash(npm install:*)",
+      "Bash(npm search:*)",
+      "Bash(findstr:*)"
+    ]
+  }
+}
