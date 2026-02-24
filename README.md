@@ -82,8 +82,8 @@ git --version
 ### Clone & Install
 
 ```bash
-git clone https://github.com/leduc212/powerapp-pcf-maker.git
-cd powerapp-pcf-maker
+git clone https://github.com/leduc212/pcf-control-maker.git
+cd pcf-control-maker
 npm install
 ```
 
@@ -251,7 +251,7 @@ For larger changes, open an issue first to discuss the approach.
 
 ## Security
 
-If you discover a security vulnerability, please report it privately via [GitHub Issues](https://github.com/leduc212/powerapp-pcf-maker/issues) with the label `security`. Do not open public issues for vulnerabilities until a fix is available.
+If you discover a security vulnerability, please report it privately via [GitHub Issues](https://github.com/leduc212/pcf-control-maker/issues) with the label `security`. Do not open public issues for vulnerabilities until a fix is available.
 
 PCF Maker is a local desktop tool — it does not collect data, connect to external services, or require internet access beyond PAC CLI auth flows to your own Power Platform tenant.
 
